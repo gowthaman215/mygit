@@ -1,0 +1,111 @@
+//c programming basics
+
+
+#include <stdio.h> // c standard i/o header file.
+//#include <iostream.h>  // c++ standard header.
+/*standard i/o header, we are including this header in our program as we are going to user standard input/output functions 
+such as scanf, printf function declared/defined in this header file.*/
+
+int main()
+{
+   
+   /* 
+   
+   Variable Declaration
+   ====================
+   
+   Desc:
+   
+   during variable declaration compilar/interpreter will create memory location for the variable.
+   
+   Syntax:
+   
+   <Datatype> [space] <list of variable name separated my comma> ;
+   
+   
+   Datatypes:
+   
+   char, int, float,  double
+   
+   Modifier/Qualifier data types:
+   
+   short, long, signed, unsigned
+   
+   Example:
+   
+   int age;
+   char gender;
+   float pi,  height, weight, area;
+   double pi;
+   
+   Notes:
+   
+   compilar = sourcecode to object code
+   interpreter = obj to binary code (executable code)
+   
+   programmer can understand source code
+   hardware machain can understand binary code.
+   
+   source -> compiler -> object code -> interpreter -> executable machine code
+   
+   */
+   
+   int age;
+   
+   /*
+   
+     Variable Initialization
+     =======================
+     
+     Desc:
+     
+     variable initialization is a process of creating memory and storing value of the memory as well.
+   
+     Syntax:
+     
+     <Datatype> [space] <variable_name> = value(const/variable) ;
+     
+     Example:
+     
+     float pi=3.14;
+     
+     variable initialization is a process of creating memory and storing value of the memory as well.
+     
+     */
+     
+     float pi=3.14;
+   
+   
+   
+   /*
+   
+   Variable assignment
+   ===================
+   
+   Description: process of storing value to a memory location.
+   
+   Syntax:
+     
+    <variable_name> = value(const/variable) ;
+    
+   Example:
+   
+   age = 18;
+
+   */
+   
+   //age = 18; 
+   
+
+  printf("Age is = %d\n", age);
+  printf("Pi is = %f\n", pi);
+  printf("hai");
+ 
+  
+  return 0;
+   
+
+}
+    
+
+

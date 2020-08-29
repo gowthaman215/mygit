@@ -1,0 +1,70 @@
+// Input and output methods in c
+
+/*
+
+1. What is fact?
+
+    1. a thing that is known or proved to be true.
+    2. True Information at some suituation.
+    
+
+2. what is Data?
+
+    1. Raw fact
+    2. Un processed Information
+    3. Piece of Information
+    
+    Example: Sun, East, 18, Male, Oviya, oviya.venkatesan@gmail.com, 29/12/2001
+
+What is Information?
+
+
+    Processed data is known as information.
+    Example: Sun rises at east.
+
+what is an Input?
+
+1. Any Information is provided or given to the computer or any electronic device is considered as input.
+2. in other words, when a computer or device is receiving a command or signal from outer sources, the event is referred to as input to the device.
+3. Device used to perform input operation is known as Input Device.
+
+Example: Keyboad, mouse, touch pannel, virtual keyboard(software interface used for input)
+
+what is an output?
+
+1. Any information that is processed by and sent out from a computer or other electronic device is considered as output.
+2. Device used to perform output operation is known as Output Device.
+
+Example: Monitor, Printer, Fax etc
+
+
+Handline Input/output operation in C
+====================================
+
+1. C programming provides mechanism to handle input and output operations through input and output functions.
+
+2. a Function in comuter programming is a set of instruction to perform specific task  or work.
+
+3. Input fuction : function user for input operation is known as input function.
+
+example: 
+scanf(), 
+sscanf(),
+gets(),
+fgets(),
+getc(),
+getch()
+
+
+4. Output function : function user for output operation is known as output function.
+
+printf(),
+sprintf(),
+puts(),
+fputs(),
+putc()
+
+*/
+
+
+

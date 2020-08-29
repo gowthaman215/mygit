@@ -1,0 +1,84 @@
+
+/*
+
+Multi 
+Line
+comment
+
+*/
+
+
+//  single line comment.
+
+
+//C Program structure 
+
+
+// 1. Header file/files
+
+#include <stdio.h> // standard input/output header. all input/output functions will be declared in this header file.
+#include <string.h> // string header. all string manipulation functions will be declared in this header file.
+
+// 2. Symbolic constant definition
+
+#define PI 3.14
+#define VERSION "1.0"
+
+// 3. User Defined function Declaration
+
+int max(int i, int j);
+
+/* syntax for function definition in c/c++ 
+
+return_type fucntion_name(list of argument)
+{
+
+....
+
+
+....
+
+}
+
+*/
+
+
+//User Defined function Definition before main fuction no need to be declared
+
+void display()
+{
+printf("This is my display function version is %s\n",VERSION);
+}
+
+
+//main function
+int main()
+{
+
+printf("This is Demo program\n"); // \n escape sequence
+printf("This is  main function\n");
+display(); // fuction calling
+
+int n1=8;
+int n2=10;
+
+printf("max number of %d and %d is %d \n",n1, n2, max(n1,n2));
+return 0;
+}
+
+
+//what is calling function? 
+//a function which is calling another function. 
+
+
+//what is called function?
+//a function is being called from another function. 
+
+//User Defined function Definition after the main should be declared.
+
+
+
+int max(int i, int j)
+{
+	return (i>j) ? i : j ;
+}

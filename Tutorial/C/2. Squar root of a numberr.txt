@@ -1,0 +1,27 @@
+//write a c++ program to find squar root of a number.
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int number;
+    int sqroot;
+    printf("Enter a number \n");
+    scanf("%d", &number); // passing address of variable ========> INPUT
+    
+    sqroot = sqrt(number); // ===================================> PROCESS
+    
+    printf("Squar root of %d is %d", number, sqroot); // ========> OUTPUT
+    return 0;
+    
+}
+
+/*
+
+& - address of 
+* - value of
+
+*/
+
+syntax:

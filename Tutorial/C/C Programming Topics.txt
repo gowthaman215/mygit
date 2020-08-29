@@ -1,0 +1,33 @@
+
+//Token
+//Datatype
+//Variable and Constant
+//Operator 
+//Expression Evaluation
+//Operator Hierachy
+
+//Input and Output in C
+
+//Decision making
+1. if statement
+2. if..else  statement
+3. switch..case statement
+
+//iteration or looing
+1. for loop
+2. while loop
+3. do..while loop
+
+//Functions in C
+1. predefined or build-in function
+2. user defined function
+
+//Pointers in C
+1. pointer to a variable
+2. pointer to a function
+
+//Creating userr deined data type in c
+1.struct in C
+2.union in C
+3.typedef in C
+4.enum in C
