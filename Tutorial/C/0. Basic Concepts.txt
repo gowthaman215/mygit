@@ -1,0 +1,126 @@
+Computer Programming Language
+=============================
+
+1. Programming langues are simlar to human speaking language. but difference is computer programing language are using 
+to interact with computer hardware.
+
+Types of computer programming languages
+=====================================
+
+1. High Level Language or Human understandable Programming languages such as c, c++, java, python, html, .net..etc
+2. Middle Level Language - Assembly Language(Object code or assembler output)
+3. Low Level Language or machine Language or 0s and 1s combination (executable code)
+
+
+Life cycle of C programming
+=================================================================================
+
+Source code
+
+     |
+  Compilation (compiler)
+     |
+     V
+
+Object Code
+
+     |
+  Linking  (Linker)
+     |
+     V
+
+Executable code (Machine code or runnable code)
+
+     |
+   Interpretation (Interpreter)
+     |
+     V
+Invocation of Hardware.
+
+=========================================================================================
+
+
+source code
+===========
+
+
+set of High level programming language instructions is known as source code.
+
+Example:
+
+test.c
+======
+
+#include <stdio.h>
+int main()
+{
+  printf("Hello World");
+}
+
+
+
+Object code or assembly code
+============================
+
+object code are assembly code or intermediate code represented as symbolic notation.
+
+Example:
+
+Live Demo
+section	.text
+   global _start     ;must be declared for linker (ld)
+	
+_start:	            ;tells linker entry point
+   mov	edx,len     ;message length
+   mov	ecx,msg     ;message to write
+   mov	ebx,1       ;file descriptor (stdout)
+   mov	eax,4       ;system call number (sys_write)
+   int	0x80        ;call kernel
+	
+   mov	eax,1       ;system call number (sys_exit)
+   int	0x80        ;call kernel
+
+section	.data
+msg db 'Hello, world!', 0xa  ;string to be printed
+len equ $ - msg     ;length of the string
+
+
+Executable code or machine code
+===============================
+
+Executable code are exactly binary code. that is combination of 0s and s
+
+Exampe:
+
+1100111001110000 1111100000001000 011111000011111  
+1000100000100111 1000100000000000 001001111100000  
+1111100100000010 0001111100011000 000000100111110  
+0011111000001111 0010000011111000 110011111100001  
+0011110001100110 0000111000100011 111000001111100  
+1111000111110001 1000001000001000 011000111110001  
+1111100011110000 1111000011111100 001111110000011
+1001110000111101 1111000111110001 111100000100000 
+0000011100000110 0011100111110001 000100000000011 
+0001111000001110 0111100010011100 000111110000011 
+0000010001111101 0000010011110011 001110001000111 
+0111001111110001 1100000111100011 111000000011110 
+0011000111110001 1100000111001110 001100111100100 
+
+
+Compiler
+========
+
+compilar is a software program which converts source code to object code(assembler output code)
+
+Linker
+======
+
+Linker is software prorgram which link all dependency files code into a single executable file.
+
+
+Interpreter
+===========
+
+Interpreter is a software program which executes instruction from the executable file so that electronic hardware devices
+can respond.
+
