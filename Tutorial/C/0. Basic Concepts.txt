@@ -1,15 +1,20 @@
-Computer Programming Language
-=============================
+class 1: Computer Programming Language
+======================================
 
 1. Programming langues are simlar to human speaking language. but difference is computer programing language are using 
 to interact with computer hardware.
+
+Computer programming language is software thing used to interact with computer hardware.
+
+Purpose of computer programming language is to make computer hardware to perform some task
+
 
 Types of computer programming languages
 =====================================
 
 1. High Level Language or Human understandable Programming languages such as c, c++, java, python, html, .net..etc
-2. Middle Level Language - Assembly Language(Object code or assembler output)
-3. Low Level Language or machine Language or 0s and 1s combination (executable code)
+2. Low Level Language or - Assembly Language(Object code or assembler output) 
+3. machine level Language - Binary language or 0s and 1s combination (executable code)
 
 
 Life cycle of C programming
@@ -62,7 +67,7 @@ int main()
 Object code or assembly code
 ============================
 
-object code are assembly code or intermediate code represented as symbolic notation.
+object codes are assembly code or intermediate code represented as simple instruction sets
 
 Example:
 
@@ -88,7 +93,7 @@ len equ $ - msg     ;length of the string
 Executable code or machine code
 ===============================
 
-Executable code are exactly binary code. that is combination of 0s and s
+Executable code are exactly binary code. that is combination of 0s and 1s.
 
 Exampe:
 
@@ -121,6 +126,19 @@ Linker is software prorgram which link all dependency files code into a single e
 Interpreter
 ===========
 
-Interpreter is a software program which executes instruction from the executable file so that electronic hardware devices
-can respond.
+Interpreter is a software program which executes the instructions from the executable file.
 
+
+
+
+Class 2: Programming things
+===========================
+
+Bit
+Byte
+data
+instruction
+Token
+Datatype
+Variable and Constant
+Operator
