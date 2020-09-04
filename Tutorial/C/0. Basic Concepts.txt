@@ -134,11 +134,131 @@ Interpreter is a software program which executes the instructions from the execu
 Class 2: Programming things
 ===========================
 
-Bit
-Byte
-data
-instruction
-Token
-Datatype
-Variable and Constant
-Operator
+Bit - Either 0 or 1 is known as a bit. 
+Byte - combination of 8 bits is known as byte. example 0001 0010
+data - Raw facts is known as data
+information - Processed data is known as Information.
+
+Binary Number - 0 , 1
+Octal Number - 0,1,2,3,4,5,6,7
+Decimal number - 0,1,2,3,4,5,6,7,8,9
+hexa decimal number - 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+Algorithm - step by step instructions is known as an Algorithm which is represented as simple english sentences.
+Pseudo code - step by step instructions represented by symbols and shorhand for a command
+flow chart - pictorial representation(picture form) of an algoritham is known as flow chart.
+UML - unified Modeling language (set of diagrams to determine larger program code)
+
+Token - Basic unit of a programming language
+https://www.geeksforgeeks.org/cc-tokens/
+
+Keywords - keywords are reserved words which gives special meaning in a program
+
+c defines 32 keywords
+
+auto         double      int        struct
+break        else        long       switch
+case         enum        register   typedef
+char         extern      return     union
+const        float       short      unsigned
+continue     for         signed     void
+default      goto        sizeof     volatile
+do           if          static     while
+
+c++ defines 31 keyword
+
+asm          bool        catch          class
+const_cast   delete      dynamic_cast   explicit 
+export       false       friend         inline 
+mutable      namespace   new            operator 
+private      protected   public         reinterpret_cast
+static_cast  template    this           throw
+true         try         typeid         typename 
+using        virtual     wchar_t 
+
+*Keywords should not be used as an identifier.
+
+
+Identifiers - Identifiers are any name given to a variable or function.
+Constants - contants are any fixed value. those values will never change in a program.
+Strings - Group of characters is known as string.
+          Group of letters,numbers, symbols and operators forms a string. example: "Exskjdnjakdfak092287013)((&'';;p"
+          string value should always denoted within double quotes in C program.
+Charactor - single letter is known as character. In C/C++ character value should always denoted within single quote. example: 'a','1',':','Q','`'
+Special Symbols - special characters except albhaphets, numbers are known as special symbols. examples:  ,.;"'{}[]()~!#&|%
+Operators - Operators are special charactors which tells compiler to operform arithmetical and logical operation. example: +,-,*,/,%,<,>,<=,>=,!=
+Preprocessor directives - special word which always begins  with #(hash symbol). example #include , #define, #ifdef, ifndef,#else, #elseif
+
+
+
+
+Identifying tokens in below program
+==================================
+
+#include<stdio.h>  
+int main()    
+{    
+ int i,fact=1,number;    
+ printf("Enter a number: ");    
+  scanf("%d",&number);    
+    for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  printf("Factorial of %d is: %d",number,fact);    
+return 0;  
+}   
+
+
+Preprocessor directives:
+========================
+#include,
+
+Keywords:
+=========
+
+int,
+return,
+for,
+
+Symbol:
+======
+<>
+()
+{}
+,
+;
+
+identifier:
+===========
+
+stdio.h - header file name
+main - function name
+printf - function name
+scanf - function name
+i - variable
+fact
+number
+
+operators
+=========
+=
+++
+<=
+*
+
+string
+========
+"Enter a number: " - string constant
+"%d" - formate string
+"Factorial of %d is: %d" - string
+
+constant
+========
+1
+0
+
+
+
+
+
+
