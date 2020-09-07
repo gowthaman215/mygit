@@ -47,18 +47,58 @@ Handline Input/output operation in C
 
 3. Input fuction : function user for input operation is known as input function.
 
-example: 
-scanf(), 
-sscanf(),
-gets(),
-fgets(),
-getc(),
-getch()
+
+1. scanf(), 
+
+syntax
+======
+
+scanf("format string", reference of variable);
+
+
+example
+=======
+
+scanf("%d", &age);
+scanf("%d %d",&age1,&age2);
+
+%d - integer
+%f - float
+%c - character
+%s - string
+
+
+2. sscanf(),
+3. gets(),
+4. fgets(),
+5. getc(),
+6. getch()
+
+
+
+
+
 
 
 4. Output function : function user for output operation is known as output function.
 
-printf(),
+1. printf()
+============
+
+syntax:
+======
+
+printf("format string", list of varible name);
+
+
+example:
+========
+
+printf("My age is %d\n", age);
+
+
+
+
 sprintf(),
 puts(),
 fputs(),
@@ -67,4 +107,12 @@ putc()
 */
 
 
+
+Exercise
+=========
+
+
+1. write a C program to get integer value as your age and print your age on console/screen.
+
+2. 
 

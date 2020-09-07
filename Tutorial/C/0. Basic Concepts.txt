@@ -246,17 +246,21 @@ operators
 <=
 *
 
-string
-========
-"Enter a number: " - string constant
-"%d" - formate string
-"Factorial of %d is: %d" - string
 
 constant
 ========
+
+integer constant
+================
 1
 0
 
+
+string constant
+===============
+"Enter a number: " - string constant
+"%d" - formate string
+"Factorial of %d is: %d" - string
 
 
 

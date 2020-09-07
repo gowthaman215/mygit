@@ -10,13 +10,15 @@ int main()
 {
    
    /* 
+
+   Variable are the memory container/memory holder whose values can be changed during the runtime.
    
    Variable Declaration
    ====================
    
    Desc:
    
-   during variable declaration compilar/interpreter will create memory location for the variable.
+   during variable declaration interpreter will create memory location for the variable.
    
    Syntax:
    
@@ -91,6 +93,7 @@ int main()
    Example:
    
    age = 18;
+   area = pi * r * r; 
 
    */
    
