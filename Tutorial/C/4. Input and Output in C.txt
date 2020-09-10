@@ -110,6 +110,8 @@ putc()
 Format Specifier / field types
 =============================
 
+purpose of format character is to specify some type of data during the run time.
+
 Character	Description
 %	Prints a literal % character (this type doesn't accept any flags, width, precision, length fields).
 d, i	int as a signed integer. %d and %i are synonymous for output, but are different when used with scanf() for input (where using %i will interpret a number as hexadecimal if it's preceded by 0x, and octal if it's preceded by 0.)
@@ -135,5 +137,10 @@ Exercise
 
 1. write a C program to get integer value as your age and print your age on console/screen.
 
-2. 
+2. write a C program to printf the size of all data type.
+
+3. write a c program to use all format character in your program.
+
+
+   
 
