@@ -131,16 +131,6 @@ Note: This can be utilized in Uncontrolled format string exploits.
 
 
 
-Exercise
-=========
-
-
-1. write a C program to get integer value as your age and print your age on console/screen.
-
-2. write a C program to printf the size of all data type.
-
-3. write a c program to use all format character in your program.
-
 
    
 

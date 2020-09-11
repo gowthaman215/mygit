@@ -1,0 +1,21 @@
+Exercise
+=========
+
+[08-09-2020] - write a C program to get integer value as your age and print your age on console/screen.
+[09-09-2020] - write a C program to printf the size of all data type.
+[10-09-2020] - write a c program to use all format character in your program.
+[11-09-2020] - write a c program to print valid range values of all basic data types.
+[11-09-2020] - Write a c program to get your biodata as an input interactively from the user and print them.
+below are inputs.
+
+Name
+Father Name
+Mother Name
+Date of Birth
+Place of Birth
+Gender
+Blood Group
+Height
+Weight
+Hobbies
+Profession
