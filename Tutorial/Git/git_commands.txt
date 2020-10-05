@@ -1,0 +1,9 @@
+cd - change directory(folder)
+dir - directory/drive list
+
+git clone https://github.com/oviya29/assignment.git
+git status
+git add .
+git commit -m "some message"
+git push
+git pull
