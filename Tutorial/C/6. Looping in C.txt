@@ -18,10 +18,10 @@ order.
 
 1. Initializing Iterative variable  (i=0)
 2. checking iterative condition
-3. until the condition is true it repeats set of statements
-defined in for loop. if condition fails it control exits for loop and
-starts executes next statement of For loop statement.
-4. increamenting iterative variable. (i++)
+3. if the condition is true, it will go inside for loop and execute all statement inside the loop
+4. end of for loop, it will execute increament/decrement part
+5. after increment/decrement part executed it will repeat again step 2
+6. if condition fail, control will execute next statement of for loop.
 
 
 Syntax
