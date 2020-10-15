@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>d:\mygit\tutorial\c\vs project\digitcount\digitcount\</FILEPATH><FILENAME>digitcount.cpp</FILENAME><LINE>10</LINE><COLUMN>5</COLUMN></SFA><DEFECTCODE>6031</DEFECTCODE><DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION><FUNCTION>main</FUNCTION><DECORATED>main</DECORATED><FUNCLINE>6</FUNCLINE><PATH/></DEFECT></DEFECTS>
