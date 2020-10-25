@@ -1,0 +1,46 @@
+what is for loop?
+
+program control entry
+ |
+ V
+for (init statement;cond stmt;inc/dec stmt)
+{ //open curly brace
+
+//set of instruction or //set of statement
+printf();
+scanf();
+a = a +1;
+
+} // close curly brace
+ 
+printf();
+scanf();
+a = a +1;
+.
+.
+
+
+ 
+interpret - verb - execute
+interpretation - noun
+
+Execution of for loop
+=======================
+
+step 1. interpreter reads initializtion statement and executes it.
+step 2. interpreter reads conditional statment and executes it.
+step 3. if the condition is true then interpreter reads set of for-loop statements and executes it.  
+       
+     3.1. interpreter reads increment/decrement statement and executes it at the end of for loop.
+     3.2. interpreter executes again from step 2 
+
+step 4. if condition is fail then interpreter reads next statement of for-loop and continues executions
+
+
+        
+
+
+
+
+
+
