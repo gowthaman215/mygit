@@ -1,0 +1,28 @@
+ file compresion
+
+ its a mechachisam or process to reduct size of actual file using compression algorithm.
+
+ zip
+ rar
+ 7z
+ gz
+ tar
+
+
+* all types information are stored as files in computer
+
+  files should represented as [filename dot extension].extension denotes type of file. 
+  extension also refered to as format of a file
+
+  each type of file can be read and processed by specific set of programs(application) only. not all the programs can read
+all type of file.
+
+example:
+  prime.txt
+
+where
+ prime - file name
+ .txt - file format
+
+
+* similar types of files can be organised with a folder (or) directory

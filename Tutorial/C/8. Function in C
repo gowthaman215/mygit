@@ -1,0 +1,117 @@
+Function
+---------
+
+- Smallest unit of a program. A Program is a set of function.
+
+
+Function types
+---------------
+
+1. Predefined function (or) built-in function (or) in-built function
+2. User-defined function
+
+1. Predefined function
+----------------------
+- A Function which is already defined as libraries.
+
+
+Example:
+--------
+scanf()
+printf()
+clrscr()
+getch()
+system()
+fflush() - it is used to flush file stream.
+
+note:
+main() - main keyword is predefined one, but main function is not a predefined function. ie main is a user defined function.
+
+commonly used predefined  functions
+-----------------------------------
+1. input/output function
+2. string manipulation function
+3. math function
+4. Graphical function
+
+and so on..
+
+
+2. User defined function
+------------------------
+
+- A function which is defined by the user. Here user is a programmer(one who write program code). 
+- C compiler allows user to define their own functions.
+- User defined function can be defined using below procedure(steps).
+
+1. Function Declaration
+2. Function Definition
+3. Function Calling
+
+1. Function Declaration
+------------------------
+- Just like declaring varible in a c program, A user defined function also should be declared before we use.
+
+Syntax
+------
+<return_data_type> <function_name> (<data_type> arg1, <data_type> arg2, ...);
+
+Example
+-------
+int add (int, int); 
+(or)
+int add (int n1, int n2); 
+
+
+2. Function Definition
+-----------------------
+- Function definition specifies what are all the statement(s) to be executed. 
+- In short function definition is a set of executable statment(s).
+
+Syntax
+------
+
+<return_data_type> <function_name> (<data_type> arg1, <data_type> arg2, ...)
+{
+//set of statement.
+return <return_data>;
+}
+
+return_type - data type of return valude.
+function_name - its a name of function.
+arg1, arg2 - inputs of a function is known as arguments/parameter.
+
+
+Example:
+--------
+
+int add (int n1, int n2)
+{
+   return n1+n2;
+}
+
+3. Function Calling
+--------------------
+- Function should be called to execute statement of that functions.
+- Once a function executed all its statements, control will be returned to its calling function.
+
+syntax
+-------
+
+<function_name>(arg1,arg2,...);
+
+Example
+-------
+
+int main() // main "calling function" function of add.
+{
+  int result;
+  result = add(2,5); //function call or function calling, here add is "called function"
+  printf("addition - %d",result);
+  return 0;
+}
+
+note:
+-----
+1. calling function - a function which is calling another function is known as calling funcion.
+2. called function - a fucntion is being called by another function.
