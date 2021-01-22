@@ -1,0 +1,168 @@
+c - programming 
+
+  -- procedural orianted programming language
+
+  -- entire program defined as functions and data structures
+
+
+c++ - programming
+
+  -- Object oriented programming languages(Partially OOP)
+
+  -- entire program defined as classes (special kind of data structure ) and other data structure.
+
+  -- c  with classes = c++
+
+cpp = (c,class)
+
+
+
+
+cpp programming structure
+-------------------------
+
+1. header files (c header file / c++ header files)
+2. macro definitions(symbolic constants)
+
+3. class definition
+4. user defined function definition
+5. main function definition
+
+
+class concepts (OOPs concepts)
+==============================
+
+1. class
+2. object			
+3. data abstraction
+4. data encapsulation
+5. data hiding
+6. overloading
+7. inheritance
+8. message passing
+.
+.
+
+1.  class
+==========
+
+ - a class is program structure which defines an object.
+ - group of object
+ 
+syntax:
+------
+
+class declatation
+-----------------
+
+class <class_name>;
+
+class definition 
+-----------------
+class <class_name>
+{
+
+private:
+
+  //member variable declaration
+  //member function definition
+
+public:
+
+  //member variable declaration
+  //member function definition
+
+protected:
+  //member variable declaration
+  //member function definition
+
+};
+
+
+
+accessibility specifiers / class specifiers
+-------------------------------------------
+1. private - private class member can be accessible only within its defined class  
+2. public - public class member can be acccessible anywhere in the program
+3. protected - protected class memberr can accessible by its own class and its inherited class
+
+
+Example:
+--------
+
+class A; //class declation
+class A // class definition
+{
+  public:
+
+  void  display()
+  {
+     cout << "this is class A"; 
+  }
+
+};
+
+
+2. Object
+---------
+
+  -- generally object represent a thing.
+  -- in c++, an object is a class varible or an instance of a class.
+  -- creating an object is same as variable declaration.
+
+syntax:
+
+object delaration
+-----------------
+
+<class_name> <list of objects seperated by comma>;
+
+Example
+-------
+A o1,o2,o3; //here o1,o2,o3 are objects or instances or class variable.
+
+
+member access operator ( . )
+-----------------------------
+syntax
+------
+
+object_name.membervariable;
+object_name.memberfunction();
+
+example
+--------
+
+o1.display();
+
+
+===Class concepts END===
+
+c++ header files
+----------------
+
+c++ defines its own headers for performing input/output operation, string manipulation and template programming etc.
+
+example:
+
+iostream.h (old version of c++)
+iostream (new version of c++)
+string
+map
+fstream
+
+
+input/output in c++
+===================
+
+  - c++ defines three objects under std namespace for performing IO operation.
+  - cout 
+  - cin
+  - cerr
+
+example 
+-------
+
+cin >> a; // >> - input extraction operator. actual form [cin.operator>>(a);]
+cout << a ; // << - output insertion operator.  actual form [cout.operator<<(a)]
+
