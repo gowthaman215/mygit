@@ -1,0 +1,154 @@
+Telugu - English
+================
+koochu - sit
+nanu - I
+nuvu - You
+nee - you (possesive case)
+nee kosam - for you
+chepu emaina - say something
+em cheitaledu - doing nothing
+em tin'av - what you had?
+idly tin'anu - i had idly.
+nuvu em tin'av - what did you eat?
+nenu'kuda - me also
+koochu nanu ante - im sitting only.
+ledhu - no/nothing
+chasthunna - leaving
+chesthunav - leaving?
+emina or emaina - anything
+amma'tho - with mom
+bayat'taki - to out
+vel'lali - need to go (or) want to go
+kaavali - need or want
+thelusa - did you know?
+thelusthundi - known
+naaku - to me
+em or enti - what
+evaru - who
+eppudu - when
+ela - how
+speak - maatlaadu
+till now - ippati varaku
+nenu ipudu em chei'yatledhu - i not doing anything now
+kali'ga unna - being at free or open
+nerchuko - learn
+che'sa - did or done
+ayi'ay - over or fininshed
+Bane - Good
+anthu'ke - for that only
+ardam - meaning
+ardam ayindhi - understood.
+inka - yet
+unn'ay - there or remains
+migil'unavi - rest of all.
+chadi'vu - to read.
+
+
+pronouns
+========
+1. I - Nenu
+2. We - Manam
+3. You - Nuvu
+4. You (plural) - Meeru
+5. He - va(a)du or athanu
+6. She - aame or thanu
+7. it - athi
+8. they - va(a)llu 
+
+
+Tenses
+======
+
+Simple present tense 
+====================
+
+1.1. first person singlular
+i read - nenu chadiv'anu 
+
+1.2. first person plural
+we read - manam chadiv'am
+
+2.1. second person singlular
+you read - nuvu chaduv'vu
+
+2.2. second person plural
+you read - meeru chadav'andi
+
+3.1. third person singlular
+he reads - athanu/vadu chaduv'uthadi
+she reads - thanu/aame chaduv'uthadi
+it reads - adhi chaduv'uthundhi
+ 
+3.2. third person plural
+they read - vallu chadiv'aru
+
+Presend Continuous tense
+========================
+
+1.1. first person singlular
+i am reading - nenu chaduv'uthuna'anu 
+
+1.2. first person plural
+we are reading - manam chaduv'uthuna'am
+
+2.1. second person singlular
+you are reading - nuvu chaduv'uthuna'vu
+
+2.2. second person plural
+you are reading - meeru chaduv'uthuna'aru
+
+3.1. third person singlular
+he is reading - athanu/vadu chaduv'uthuna'du
+she is reading - thanu/aame chaduv'uthuna'dhi
+it is reading - adhi chaduv'uthuna'dhi
+ 
+3.2. third person plural
+they are reading - vallu chaduv'uthuna'aru
+
+
+present perfect tense 
+=====================
+
+1.1. first person singlular
+i have read - nenu chadiv'aanu 
+
+1.2. first person plural
+we have read - manam chadiv'aamu
+
+2.1. second person singlular
+you have read - nuvu chaduv'aavu
+
+2.2. second person plural
+you have read - meeru chadav'aaru
+
+3.1. third person singlular
+he has read - athanu/vadu chaduv'aadu
+she has read - thanu/aame chaduv'indhi
+it has read - adhi chaduv'indhi
+ 
+3.2. third person plural
+they have read - vallu chadiv'aaru
+
+
+present perfect continuous tense 
+================================
+
+1.1. first person singlular
+i have been reading - nenu chaduv'uthu'unaanu 
+
+1.2. first person plural
+we have been reading - manam chaduv'uthu'unaamu
+
+2.1. second person singlular
+you have been reading - nuvu chaduv'uthu'unaavu
+
+2.2. second person plural
+you have been reading - meeru chaduv'uthu'unaaru
+
+3.1. third person singlular
+he has been reading - athanu/vadu chaduv'uthu'unaadu
+she has been reading - thanu/aame chaduv'uthu'unadhi
+it has been reading - adhi chaduv'uthu'unadhi
+ 
+3.2. third person plural
+they have been reading - vallu chaduv'uthu'unaaru
