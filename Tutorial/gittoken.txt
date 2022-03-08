@@ -19,3 +19,6 @@ git config --system --unset [key]
 git config --unset url.https://${gowthaman215}:${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}@github.com.insteadof
 
 git config --global --unset url."https://gowthaman215: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@github.com".insteadOf "https://github.com"
+
+
+git config --global url."https://gowthaman215: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@github.com".insteadOf "https://github.com"
