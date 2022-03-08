@@ -1,2 +1,23 @@
+gowthaman215@gmail.com
+
 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
 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
+
+
+  git config --global user.email "gowthaman215@gmail.com"
+  git config --global user.name "Gowthaman Palanisamy"
+
+
+git config --global url."https://gowthaman215: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@github.com".insteadOf "https://github.com"
+
+# Remove repository configuration
+git config --unset [key]
+# Remove global configuration
+git config --global --unset [key]
+# Remove system configuration
+git config --system --unset [key]
+
+
+git config --unset url.https://${gowthaman215}:${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}@github.com.insteadof
+
+git config --global --unset url."https://gowthaman215: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@github.com".insteadOf "https://github.com"
