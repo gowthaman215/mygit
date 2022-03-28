@@ -1,5 +1,6 @@
 gowthaman215@gmail.com
 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
+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
 
 
   git config --global user.email "gowthaman215@gmail.com"

@@ -1,2 +1,2 @@
-PlatformToolSet=v143:VCToolArchitecture=Native32Bit:TargetPlatformVersion=7.0:
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=7.0:
 Release|x64|D:\GIT\mygit\Tutorial\C++\VS_PROJECT\HelloWorld\|
